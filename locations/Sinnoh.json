@@ -974,7 +974,7 @@
                     {
                         "name": "Hidden Item Behind Hiker Next to Wooden Bridge",
                         "visibility_rules": ["$hidden_on"],
-                        "access_rules": ["$west,Bicycle","SecretPotion,$rocksmash,$strength"],
+                        "access_rules": ["$west,Bicycle,[$hidden]","SecretPotion,$rocksmash,$strength,[$hidden]"],
                         "item_count": 1
                     },
                     {
