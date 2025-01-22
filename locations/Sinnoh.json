@@ -559,7 +559,7 @@
                         "chest_unopened_img": "/images/items/tvoff.png",
                         "chest_opened_img": "/images/items/tvon.png",
                         "visibility_rules": ["event_toggle"],
-                        "access_rules": ["event_canalave"]
+                        "access_rules": ["event_canalave,HM04Strength"]
                     }
                 ],
                 "map_locations": [
