@@ -7,14 +7,14 @@
 		"codes": "opt_flash",
 		"stages": [
 			{
-				"img": "/images/Items/Flash.png",
+				"img": "/images/Items/BuyFlash.png",
 				"img_mods": "@disabled",
 				"codes": "opt_flash_off",
 				"inherit_codes": false,
 				"name": "Don't Buy Flash"
 			},
 			{
-				"img": "/images/Items/Flash.png",
+				"img": "/images/Items/BuyFlash.png",
 				"codes": "opt_flash_on",
 				"inherit_codes": false,
 				"name": "Buy Flash"
@@ -22,22 +22,21 @@
 		]
 	},
 	{
-		"name": "North Fly Logic",
+		"name": "North Sinnoh Fly Logic",
 		"type": "progressive",
 		"allow_disabled": false,
 		"loop": true,
-		"codes": "opt_fly",
+		"codes": "opt_fly_north",
 		"stages": [
 			{
-				"img": "/images/Items/Fly.png",
-				"img_mods": "@disabled",
-				"codes": "opt_fly_off",
+				"img": "/images/Items/NoNorthSinnohFly.png",
+				"codes": "opt_fly_north_off",
 				"inherit_codes": false,
 				"name": "Fly not required for North Sinnoh"
 			},
 			{
-				"img": "/images/Items/Fly.png",
-				"codes": "opt_fly_on",
+				"img": "/images/Items/NorthSinnohFly.png",
+				"codes": "opt_fly_north_on",
 				"inherit_codes": false,
 				"name": "Fly required for North Sinnoh"
 			}
@@ -134,35 +133,36 @@
 	{
 		"name": "Shuffle Hiddens",
 		"type": "progressive",
+		"codes": "opt_hidden",
 		"loop": false,
 		"inherit_codes": false,
 		"allow_disabled": false,
 		"stages": [
 			{
 				"name": "Hidden Items Not Randomized",
-				"img": "/images/Items/NoHidden.png",
+				"img": "/images/Items/HiddensOff.png",
 				"codes": "opt_hidden_off",
 				"inherit_codes": false
 			},
 			{
 				"name": "Hidden Items Randomized",
-				"img": "/images/Items/hidden.png",
+				"img": "/images/Items/HiddensOn.png",
 				"codes": "opt_hidden_on",
 				"inherit_codes": false
 			}
-		],
-		"codes": "opt_hidden"
+		]
 	},
 	{
 		"name": "Dowsing App Option",
 		"type": "progressive",
+		"codes": "opt_dowsing",
 		"loop": false,
 		"inherit_codes": false,
 		"allow_disabled": false,
 		"stages": [
 			{
 				"name": "Dowsing Machine App NOT Required",
-				"img": "/images/Items/dowsing-machine.png",
+				"img": "/images/Items/dowsing-machine_dim.png",
 				"img_mods": "@disabled",
 				"codes": "opt_dowsing_off",
 				"inherit_codes": false
@@ -173,19 +173,19 @@
 				"codes": "opt_dowsing_on",
 				"inherit_codes": false
 			}
-		],
-		"codes": "opt_dowsing"
+		]
 	},
 	{
 		"name": "Route 217 Dowsing App",
 		"type": "progressive",
+		"codes": "opt_217",
 		"loop": false,
 		"inherit_codes": false,
 		"allow_disabled": false,
 		"stages": [
 			{
 				"name": "Route 217 - Dowsing Not Required",
-				"img": "/images/Items/dowsing-machine.png",
+				"img": "/images/Items/dowsing-machine_dim.png",
 				"img_mods": "overlay|/images/Items/route_217.png,@disabled",
 				"codes": "opt_217_off",
 				"inherit_codes": false
@@ -197,7 +197,98 @@
 				"codes": "opt_217_on",
 				"inherit_codes": false
 			}
-		],
-		"codes": "opt_217"
+		]
+	},
+	{
+		"name": "Open Sunyshore",
+		"type": "progressive",
+		"codes": "opt_open_sshore",
+		"loop": false,
+		"inherit_codes": false,
+		"allow_disabled": false,
+		"stages": [
+			{
+				"name": "Sunyshore is Closed",
+				"img": "/images/Items/ClosedSunyshore.png",
+				"img_mods": "@disabled",
+				"codes": "opt_open_sshore_off",
+				"inherit_codes": false
+			},
+			{
+				"name": "Sunyshore is Open",
+				"img": "/images/Items/OpenSunyshore.png",
+				"codes": "opt_open_sshore_on",
+				"inherit_codes": false
+			}
+		]
+	},
+	{
+		"name": "Add Roadblocks",
+		"codes": "opt_extra_blocks",
+		"type": "progressive",
+		"loop": false,
+		"inherit_codes": false,
+		"allow_disabled": false,
+		"stages": [
+			{
+				"name": "Roadblocks not on 212 and 214",
+				"img": "/images/Items/AddRoadblocks.png",
+				"img_mods": "@disabled",
+				"codes": "opt_extra_blocks_off",
+				"inherit_codes": false
+			},
+			{
+				"name": "Roadblocks on 212 and 214",
+				"img": "/images/Items/AddRoadblocks.png",
+				"codes": "opt_extra_blocks_on",
+				"inherit_codes": false
+			}
+		]
+	},
+	{
+		"name": "Storage Key in Pool",
+		"type": "progressive",
+		"loop": false,
+		"inherit_codes": false,
+		"allow_disabled": false,
+		"codes": "opt_skey",
+		"stages": [
+			{
+				"name": "Storage Key is not in the Item Pool",
+				"img": "/images/Items/LookerStorageKey.png",
+				"img_mods": "@disabled",
+				"codes": "opt_skey_off",
+				"inherit_codes": false
+			},
+			{
+				"name": "Storage Key is in the Item Pool",
+				"img": "/images/Items/StorageKey.png",
+				"codes": "opt_skey_on",
+				"inherit_codes": false
+			}
+		]
+	},
+	{
+		"name": "Early Fly Logic",
+		"type": "progressive",
+		"codes": "opt_fly_early",
+		"loop": false,
+		"inherit_codes": false,
+		"allow_disabled": false,
+		"stages": [
+			{
+				"name": "Early Fly Off",
+				"img": "/images/Items/NoEarlyFly.png",
+				"img_mods": "@disabled",
+				"codes": "opt_fly_early_off",
+				"inherit_codes": false
+			},
+			{
+				"name": "Early Fly On",
+				"img": "/images/Items/EarlyFly.png",
+				"codes": "opt_fly_early_on",
+				"inherit_codes": false
+			}
+		]
 	}
 ]

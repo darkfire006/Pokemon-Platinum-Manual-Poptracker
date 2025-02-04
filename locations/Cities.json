@@ -77,6 +77,11 @@
 			},
 			{
 				"name": "",
+				"map_locations": [{"map": "jubilifecity", "x": 592, "y": 182}],
+				"sections": [{"ref": "Sinnoh/Jubilife City/Jubilife TV - Mask from Man on 2F"}]
+			},
+			{
+				"name": "",
 				"map_locations": [{"map": "jubilifecity", "x": 752, "y": 108}],
 				"sections": [{"ref": "Sinnoh/Jubilife City/Fashion Case from Overalls Man"}]
 			},
@@ -462,7 +467,7 @@
 			{
 				"name": "",
 				"map_locations": [{"map": "veilstonecity", "x": 343, "y": 155}],
-				"sections": [{"ref": "Sinnoh/Veilstone City/Item between Galactic Warehouses"}]
+				"sections": [{"ref": "Sinnoh/Veilstone City/Item Between Galactic Warehouses"}]
 			},
 			{
 				"name": "",
@@ -516,7 +521,7 @@
 			{
 				"name": "",
 				"map_locations": [{"map": "veilstonecity", "x": 726, "y": 213}],
-				"sections": [{"ref": "Sinnoh/Veilstone City/Event: Startle Grunt Outside Galactic HQ"}]
+				"sections": [{"ref": "Sinnoh/Veilstone City/Event: Looker Takes Storage Key"}]
 			},
 			{
 				"name": "",

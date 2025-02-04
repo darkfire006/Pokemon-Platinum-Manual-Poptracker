@@ -40,7 +40,7 @@
 						"S.S.Ticket",
 						"Parcel",
 						"OldCharm",
-						"OldRod",
+						"SecretKey",
 						"azureflute"
 					],
 					[
@@ -50,7 +50,7 @@
 						"GalacticKey",
 						"WorksKey",
 						"SuiteKey",
-						"GoodRod",
+						"StorageKey",
 						"oaksletter"
 					],
 					[
@@ -221,9 +221,16 @@
 					],
 					[
 						"opt_flash",
-						"opt_fly",
+						"opt_fly_north",
+						"opt_fly_early",
 						"opt_defog_cross",
 						"opt_defog_items",
+					],
+					[
+						"opt_open_sshore",
+						"opt_extra_blocks",
+						"opt_skey",
+						"funny",
 						"event_toggle"
 					]
 				]

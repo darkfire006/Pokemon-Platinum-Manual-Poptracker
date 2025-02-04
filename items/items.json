@@ -607,12 +607,14 @@
 		"img": "/images/Items/OldCharm.png",
 		"codes": "OldCharm"
 	},
+
 	{
-		"name": "Event: Talk to Rowan after Distortion World",
+		"name": "Storage Key",
 		"type": "toggle",
-		"img": "images/Items/Rowan.png",
-		"codes": "event_rowan"
+		"img": "/images/Items/StorageKey.png",
+		"codes": "StorageKey"
 	},
+
 	{
 		"name": "Event: Beat Oreburgh Gym",
 		"type": "toggle",
@@ -634,7 +636,7 @@
 	{
 		"name": "Event: Beat Canalave Gym",
 		"type": "toggle",
-		"img": "images/Items/Bryon.png",
+		"img": "images/Items/Byron.png",
 		"codes": "event_canalave"
 	},
 	{
@@ -662,9 +664,9 @@
 		"codes": "event_warehouse"
 	},
 	{
-		"name": "Event: Startle Grunt Outside Galactic HQ",
+		"name": "Event: Looker Takes Storage Key",
 		"type": "toggle",
-		"img": "images/Items/Grunt.png",
+		"img": "images/Items/LookerStorageKey.png",
 		"codes": "event_galactichq"
 	},
 	{
@@ -682,7 +684,7 @@
 	{
 		"name": "Event Toggle",
 		"type": "toggle",
-		"img": "images/Items/azureflute.png",
+		"img": "images/Items/GalacticEvents.png",
 		"initial_active_state": true,
 		"codes": "event_toggle"
 	},
