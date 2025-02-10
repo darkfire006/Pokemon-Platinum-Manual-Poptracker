@@ -1,18 +1,14 @@
 
 {
-	"name": "Pokémon Platinum Tracker V4",
+	"name": "Pokémon Platinum AP Manual Tracker",
 	"game_name": "Manual_PokemonPlatinum_Linneus",
-	"package_version": "0.1.2",
+	"package_version": "0.1.0",
 	"min_poptracker_version": "0.27.1",
 	"package_uid": "manual_pokemonplatinum_linneus_ap",
-	"author": "ZobeePlays (Sophie), palex00, darkfire006, & cheerioschelsea",
+	"author": "ZobeePlays (Sophie), palex00, darkfire006, cheerioschelsea & Linneus",
 	"variants": {
 		"Map Tracker": {
 			"display_name": "Map Tracker",
-			"flags": ["ap", "apmanual"]
-		},
-		"Items Only": {
-			"display_name": "Items Only",
 			"flags": ["ap", "apmanual"]
 		}
 	}
