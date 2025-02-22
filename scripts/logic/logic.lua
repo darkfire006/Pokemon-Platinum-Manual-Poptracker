@@ -142,7 +142,7 @@ end
 
 -- Beeg Access
 function floaroma()
-	return rocksmash() or has("Bicycle")
+	return rocksmash() or eterna()
 end
 
 function canalave()
