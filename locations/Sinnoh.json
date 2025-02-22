@@ -310,7 +310,7 @@
 					},
 					{
 						"name": "Pokedex Upgrade from Dawn or Lucas' Father",
-						"access_rules": ["^$canalve"],
+						"access_rules": ["^$canalave"],
 						"item_count": 1
 					}
 				]
@@ -1010,7 +1010,7 @@
                 "chest_opened_img": "/images/items/open.png",
                 "overlay_background": "#000000",
                 "access_rules": [
-                    "^^$eterna,$surf"
+                    "^$eterna,$surf"
                 ],
                 "sections": [
                     {
