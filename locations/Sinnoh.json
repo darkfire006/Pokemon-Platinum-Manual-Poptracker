@@ -310,7 +310,7 @@
 					},
 					{
 						"name": "Pokedex Upgrade from Dawn or Lucas' Father",
-						"access_rules": ["^$canalve"],
+						"access_rules": ["^$canalave"],
 						"item_count": 1
 					}
 				]
@@ -735,17 +735,17 @@
 				"sections": [
 					{
 						"name": "Item Above Cave Entrance",
-						"access_rules": ["$rocksmash","Bicycle"],
+						"access_rules": [],
 						"item_count": 1
 					},
 					{
 						"name": "Item on Left",
-						"access_rules": ["$rocksmash","Bicycle"],
+						"access_rules": [],
 						"item_count": 1
 					},
 					{
 						"name": "Woman Behind Cut Tree",
-						"access_rules": ["$rocksmash,$cut","Bicycle,$cut"],
+						"access_rules": ["$cut"],
 						"item_count": 1
 					}
 				]
@@ -1010,7 +1010,7 @@
                 "chest_opened_img": "/images/items/open.png",
                 "overlay_background": "#000000",
                 "access_rules": [
-                    "^^$eterna,$surf"
+                    "^$eterna,$surf"
                 ],
                 "sections": [
                     {
