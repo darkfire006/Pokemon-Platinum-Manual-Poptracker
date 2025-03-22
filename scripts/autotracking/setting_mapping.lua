@@ -60,6 +60,16 @@ SLOT_CODES =
       [1] = 1  -- Logic Buyable Flash
     }
   },
+  marsh_pass =
+  {
+    code = "opt_marsh",
+	type = "progressive",
+    mapping =
+    {
+      [0] = 0, -- Don't Add Marsh Pass to Pool
+      [1] = 1  -- Add Marsh Pass to Pool
+    }
+  },
   storage_key =
   {
     code = "opt_skey",

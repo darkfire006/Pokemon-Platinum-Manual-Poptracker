@@ -416,6 +416,5 @@ ITEM_MAPPING = { -- apID = tracker item code
 [395] = {"Oaksletter", "toggle"},
 -- Optional Key Items
 [396] = {"StorageKey", "toggle"},
--- filler items
-[397] = {"Focus Sash"}
+[397] = {"MarshPass", "toggle"}
 }

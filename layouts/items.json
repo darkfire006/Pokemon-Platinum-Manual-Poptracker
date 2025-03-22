@@ -40,7 +40,7 @@
 						"S.S.Ticket",
 						"Parcel",
 						"OldCharm",
-						"SecretKey",
+						"MarshPass",
 						"azureflute"
 					],
 					[
@@ -59,7 +59,7 @@
 						"ProgressivePokedex",
 						"Pachirisu",
 						"Snorlax",
-						"KEcleon",
+						"Kecleon",
 						"SuperRod",
 						"membercard"
 					]
@@ -230,7 +230,7 @@
 						"opt_open_sshore",
 						"opt_extra_blocks",
 						"opt_skey",
-						"funny",
+						"opt_marsh",
 						"event_toggle"
 					]
 				]
