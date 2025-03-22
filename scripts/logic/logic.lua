@@ -90,6 +90,10 @@ function flash()
 	return has("TM70-Flash") or (east() and has("opt_flash_on"))
 end
 
+function marsh()
+	return has("MarshPass") or has("opt_marsh_off")
+end
+
 function hidden_on()
 	return has("opt_hidden_on")
 end

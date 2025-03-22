@@ -616,6 +616,13 @@
 	},
 
 	{
+		"name": "Marsh Pass",
+		"type": "toggle",
+		"img": "/images/Items/MarshPass.png",
+		"codes": "MarshPass"
+	},
+
+	{
 		"name": "Event: Beat Oreburgh Gym",
 		"type": "toggle",
 		"img": "images/Items/Roark.png",

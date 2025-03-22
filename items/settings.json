@@ -269,6 +269,29 @@
 		]
 	},
 	{
+		"name": "Marsh Pass in Pool",
+		"type": "progressive",
+		"loop": false,
+		"inherit_codes": false,
+		"allow_disabled": false,
+		"codes": "opt_marsh",
+		"stages": [
+			{
+				"name": "Marsh Pass is not in the Item Pool",
+				"img": "/images/Items/PayForMarsh.png",
+				"img_mods": "@disabled",
+				"codes": "opt_marsh_off",
+				"inherit_codes": false
+			},
+			{
+				"name": "Marsh Pass is in the Item Pool",
+				"img": "/images/Items/MarshPass.png",
+				"codes": "opt_marsh_on",
+				"inherit_codes": false
+			}
+		]
+	},
+	{
 		"name": "Early Fly Logic",
 		"type": "progressive",
 		"codes": "opt_fly_early",
