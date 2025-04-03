@@ -166,17 +166,22 @@ function eterna()
 end
 
 function central()
-	return (
-		has("Bicycle")
-		or (
-			rocksmash()
+	if (rocksmash()
 			and r205river()
 			and strength()
-			and defogcross()
-			and has("SecretPotion")
-		)
-	)
-	and early_fly()
+			and has("SecretPotion"))then
+		if defogcross() == AccessibilityLevel.SequenceBreak or early_fly() == AccessibilityLevel.SequenceBreak then
+			return AccessibilityLevel.SequenceBreak
+		else
+			return 
+				rocksmash()
+				and r205river()
+				and strength()
+				and has("SecretPotion")
+		end
+	else
+		return (has("Bicycle") and early_fly())
+	end
 end
 
 function uppercoronet()
