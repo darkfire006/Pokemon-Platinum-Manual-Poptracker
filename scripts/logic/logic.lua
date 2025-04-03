@@ -141,7 +141,7 @@ function champ()
  end
 
 function vict_arceus()
-	return has("azureflute") and plates(16)
+	return has("azureflute") and plates(16) and has("ProgDex3")
 end
 
 -- Beeg Access
